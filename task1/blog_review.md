@@ -1,1 +1,10 @@
-efgw
+Imagine trying to teach a computer to recognize a cat. If you had to write standard code for it, you'd end up with thousands of if/else statements defining ears, whiskers, and tail shapes and it would still fail the moment a cat turned its head. This is why traditional programming breaks down on human tasks, and why we had to build something that learns like a brain. Then neural networks were built.
+They solve problems, identify patterns in data, and analyze it all to revolutionize industries all around the world.
+Neural networks, sometimes referred to as simulated neural networks (SNNs) or artificial neural networks (ANNs), are the foundation of deep learning techniques and a subset of machine learning. Because they resemble the way brain neurons communicate with one another, they are referred to as “neural.”
+A basic neural network consists of a perceptron that makes neuron learn from input given to it. There are two types of perceptron: Single layered and multi-layered. Single layered perceptron does not contain any hidden layers whereas multi-layered perceptrons do.
+How do neural networks work? They receive input, perform calculations, and give output.
+Activation function: Without it neural networks would be linear machines which are limited to simple tasks.They determine whether a neuron should be activated or not based on its input, adding flexibility and depth to the network’s capabilities(e.g., sigmoid, tanh, ReLU).
+Once a neuron receives its inputs from the neurons in the preceding layer of the model, it adds up each signal multiplied by its corresponding weight in the hidden layer and passes them on to an activation function.
+There are 4 types of activation function: threshold, sigmoid, rectifier and hyperbolic tangent.
+Threshold function gives output as 0 or 1. If sum is greater than or equal to 0 then 1 else 0. Sigmoid function gives output as 1/(1+exp(-x)) where x is the sum. Rectifier function gives output as max(0,sum). The hyperbolic tangent function gives output as (exp(x)-exp(-x))/(exp(x)+exp(-x)).
+By reading this blog I learned how neural networks work. I always had a basic idea about the neural networks but was curious to learn about their working. 
